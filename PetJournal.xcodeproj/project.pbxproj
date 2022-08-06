@@ -11,6 +11,14 @@
 		3FE8518C289F267D000A1257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8518B289F267D000A1257 /* ContentView.swift */; };
 		3FE8518E289F267E000A1257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8518D289F267E000A1257 /* Assets.xcassets */; };
 		3FE85191289F267E000A1257 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE85190289F267E000A1257 /* Preview Assets.xcassets */; };
+		3FE85199289F26D9000A1257 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE85198289F26D9000A1257 /* WelcomeView.swift */; };
+		3FE8519B289F26FF000A1257 /* myColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8519A289F26FF000A1257 /* myColors.swift */; };
+		3FE8519D289F2778000A1257 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8519C289F2778000A1257 /* BottomTextView.swift */; };
+		3FE8519F289F27D0000A1257 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8519E289F27D0000A1257 /* testView.swift */; };
+		3FE851A2289F286C000A1257 /* testViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE851A1289F286C000A1257 /* testViewModel.swift */; };
+		3FE851A5289F2903000A1257 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE851A4289F2903000A1257 /* Journal.swift */; };
+		3FE851A7289F293C000A1257 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE851A6289F293C000A1257 /* Entry.swift */; };
+		3FE851A9289F2A06000A1257 /* moon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE851A8289F2A06000A1257 /* moon.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		3FE8518B289F267D000A1257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FE8518D289F267E000A1257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FE85190289F267E000A1257 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FE85198289F26D9000A1257 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3FE8519A289F26FF000A1257 /* myColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myColors.swift; sourceTree = "<group>"; };
+		3FE8519C289F2778000A1257 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		3FE8519E289F27D0000A1257 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		3FE851A1289F286C000A1257 /* testViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewModel.swift; sourceTree = "<group>"; };
+		3FE851A4289F2903000A1257 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		3FE851A6289F293C000A1257 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		3FE851A8289F2A06000A1257 /* moon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpeg; path = ../../../../Desktop/moon.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,11 @@
 		3FE85188289F267D000A1257 /* PetJournal */ = {
 			isa = PBXGroup;
 			children = (
+				3FE851A8289F2A06000A1257 /* moon.jpeg */,
+				3FE851A3289F28F5000A1257 /* Models */,
+				3FE851A0289F2840000A1257 /* ViewModels */,
+				3FE85197289F26B7000A1257 /* Views */,
 				3FE85189289F267D000A1257 /* PetJournalApp.swift */,
-				3FE8518B289F267D000A1257 /* ContentView.swift */,
 				3FE8518D289F267E000A1257 /* Assets.xcassets */,
 				3FE8518F289F267E000A1257 /* Preview Content */,
 			);
@@ -65,6 +84,35 @@
 				3FE85190289F267E000A1257 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FE85197289F26B7000A1257 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FE8518B289F267D000A1257 /* ContentView.swift */,
+				3FE85198289F26D9000A1257 /* WelcomeView.swift */,
+				3FE8519A289F26FF000A1257 /* myColors.swift */,
+				3FE8519C289F2778000A1257 /* BottomTextView.swift */,
+				3FE8519E289F27D0000A1257 /* testView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FE851A0289F2840000A1257 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3FE851A1289F286C000A1257 /* testViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3FE851A3289F28F5000A1257 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FE851A4289F2903000A1257 /* Journal.swift */,
+				3FE851A6289F293C000A1257 /* Entry.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +175,7 @@
 			files = (
 				3FE85191289F267E000A1257 /* Preview Assets.xcassets in Resources */,
 				3FE8518E289F267E000A1257 /* Assets.xcassets in Resources */,
+				3FE851A9289F2A06000A1257 /* moon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE8518C289F267D000A1257 /* ContentView.swift in Sources */,
+				3FE8519B289F26FF000A1257 /* myColors.swift in Sources */,
+				3FE8519F289F27D0000A1257 /* testView.swift in Sources */,
+				3FE851A5289F2903000A1257 /* Journal.swift in Sources */,
+				3FE851A2289F286C000A1257 /* testViewModel.swift in Sources */,
+				3FE85199289F26D9000A1257 /* WelcomeView.swift in Sources */,
+				3FE851A7289F293C000A1257 /* Entry.swift in Sources */,
 				3FE8518A289F267D000A1257 /* PetJournalApp.swift in Sources */,
+				3FE8519D289F2778000A1257 /* BottomTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
