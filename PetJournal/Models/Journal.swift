@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import UIKit
+import SwiftUI
 
 struct Journal {
     private(set) var numEntries = 0
-    private(set) var entries = [Entry()]
+    private(set) var entries = [Entry(caption: "hi", isPrivate: false)]
     
 }

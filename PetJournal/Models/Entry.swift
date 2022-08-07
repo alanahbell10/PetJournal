@@ -6,7 +6,18 @@
 //
 
 import Foundation
+import UIKit
+import SwiftUI
 
 struct Entry {
     
+    let caption: String
+    let isPrivate: Bool
+    //public let photo: Image
+    
+    
+    
+
+    
+    //UIImage(data: instanceOfSomeImage.photo)!
 }

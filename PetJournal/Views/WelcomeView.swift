@@ -18,6 +18,7 @@ struct WelcomeView: View {
                 //GameColor.main.ignoresSafeArea()
                 VStack {
                     VStack(alignment: .leading, spacing: 0) {
+                        
                         Text("Rosie")
                             .font(.system(size: 40))
                             .foregroundColor(myColors.text)

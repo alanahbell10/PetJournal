@@ -89,11 +89,11 @@
 		3FE85197289F26B7000A1257 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3FE8518B289F267D000A1257 /* ContentView.swift */,
 				3FE85198289F26D9000A1257 /* WelcomeView.swift */,
+				3FE8519E289F27D0000A1257 /* testView.swift */,
 				3FE8519A289F26FF000A1257 /* myColors.swift */,
 				3FE8519C289F2778000A1257 /* BottomTextView.swift */,
-				3FE8519E289F27D0000A1257 /* testView.swift */,
+				3FE8518B289F267D000A1257 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
