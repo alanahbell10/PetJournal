@@ -27,8 +27,8 @@ struct WelcomeView: View {
                     }
                     Spacer()
                     Spacer()
-                    NavigationLink(destination: testView()) {
-                        BottomTextView(str: " * * enter * * ")
+                    NavigationLink(destination: LoginView()) {
+                        BottomTextView(str: " * * Log In * * ")
                                 }
                 .foregroundColor(.white)
             }

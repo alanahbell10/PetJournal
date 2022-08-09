@@ -7,7 +7,7 @@
 import Foundation
 import SwiftUI
 
-class TestViewModel: ObservableObject {
+class JournalViewModel: ObservableObject {
     
     // MARK: - Published properties
     @Published private var journal = Journal()
