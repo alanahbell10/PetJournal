@@ -11,7 +11,8 @@ import SwiftUI
 struct PetJournalApp: App {
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+            //WelcomeView()
+            JournalView()
         }
     }
 }

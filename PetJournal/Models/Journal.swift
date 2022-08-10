@@ -16,10 +16,19 @@ struct Journal {
     var _newEntry = Entry()
     
     init() {
-        _numEntries = numEntries
+        
         _entries = entries
         _newEntry = newEntry
+        _numEntries = entries.count
     }
+    
+    init(entries: Array<Entry>, newEntry: Entry) {
+        
+        self._entries = entries
+        self._newEntry = newEntry
+        self._numEntries = entries.count
+    }
+    
     var numEntries: Int {
         set { _numEntries = self._entries.count}
         get { return _numEntries }
@@ -32,6 +41,9 @@ struct Journal {
         set { _newEntry = Entry() }
         get { return _newEntry }
     }
+    
+    
+
     
     
     

@@ -11,9 +11,14 @@ class JournalViewModel: ObservableObject {
     
     // MARK: - Published properties
     @Published private var journal = Journal()
-    @Published private var entryTest = Entry()
+    var entry1: Entry = Entry(caption: "", photoString: "test.jpeg")
+    var entry2: Entry = Entry(caption: "", photoString: "test.jpeg")
+    var entryArray: Array<Entry> = [Entry(), Entry(), Entry()]
+    @Published private var testJournal = Journal(entries: [Entry(), Entry(), Entry()], newEntry: Entry())
+    var testJournal1 = Journal(entries: [Entry(), Entry(), Entry()], newEntry: Entry())
+    //@Published private var entryTest = Entry()
     
-
+    
     // MARK: - Internal properties
     
     /*var currentQuestion: Question {

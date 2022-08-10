@@ -21,7 +21,7 @@ struct Entry {
         self.caption = "test caption"
         self.isPrivate = false
         //let picture = UIImage(named: "test.jpeg")
-        self.picture = UIImage(imageLiteralResourceName: "moon.jpeg")
+        self.picture = UIImage(imageLiteralResourceName: "test.jpeg")
     }
     
     init(caption: String, photoString: String) {
