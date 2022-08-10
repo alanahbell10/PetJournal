@@ -14,6 +14,7 @@ struct JournalView: View {
             ZStack {
                 //myColors.main.ignoresSafeArea()
                 VStack() {
+                    
                     HStack {
                         /*Text("Item \($0)")
                             .foregroundColor(.white)
@@ -22,41 +23,11 @@ struct JournalView: View {
                             .background(.red)*/
                         
                         Image("sqMoon")
-                        
                     }
                     .foregroundColor(.white)
                     .navigationBarHidden(false)
                     .environmentObject(journalView)
                     .padding(70)
-                    HStack {
-                        /*Text("Item \($0)")
-                            .foregroundColor(.white)
-                         Image("sqMoon")  .font(.largeTitle)
-                            .frame(width: 200, height: 200)
-                            .background(.red)*/
-                        
-                        Image("sqMoon")
-                        
-                    }
-                    .foregroundColor(.white)
-                    .navigationBarHidden(false)
-                    .environmentObject(journalView)
-                    .padding(70)
-                    HStack {
-                        /*Text("Item \($0)")
-                            .foregroundColor(.white)
-                         Image("sqMoon")  .font(.largeTitle)
-                            .frame(width: 200, height: 200)
-                            .background(.red)*/
-                        
-                        Image("sqMoon")
-                        
-                    }
-                    .foregroundColor(.white)
-                    .navigationBarHidden(false)
-                    .environmentObject(journalView)
-                    .padding(70)
-                
                 }
                 .background(.red)
             }

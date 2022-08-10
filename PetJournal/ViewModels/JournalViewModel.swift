@@ -11,6 +11,8 @@ class JournalViewModel: ObservableObject {
     
     // MARK: - Published properties
     @Published private var journal = Journal()
+    @Published private var entryTest = Entry()
+    
 
     // MARK: - Internal properties
     
