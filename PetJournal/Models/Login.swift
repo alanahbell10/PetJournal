@@ -12,7 +12,7 @@ struct Login {
     let username: String
     let password: String
     
-    static var myLogin = Login(username: "lana", password: "123")
+    static var myLogin = Login(username: "Lana", password: "123")
     
     
     

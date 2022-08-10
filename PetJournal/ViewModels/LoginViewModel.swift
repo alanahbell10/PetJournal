@@ -12,14 +12,32 @@ class LoginViewModel: ObservableObject {
     // MARK: - Published properties
     @Published private var login = Login(username: Login.myLogin.username, password: Login.myLogin.password)
     
-    func correctUsername(loginCreds: String) -> Bool {
-        
-        if self.login.username == loginCreds {
+    func correctUser(user: String) -> Bool {
+        if self.login.username == user {
             return true
         } else {
             print("Incorrect username")
             return false
         }
-        
     }
+    
+    func correctPassword(pass: String) -> Bool {
+        if self.login.password == pass {
+            return true
+        } else {
+            print("Incorrect password")
+            return false
+        }
+    }
+    
+    func correctLogin(validUser: Bool, validPass: Bool) -> Bool{
+        if validUser && validPass {
+            print("Valid login")
+            return true
+        } else {
+            print("Invalid login: user: \(validUser) pass: \(validPass)")
+            return false
+        }
+    }
+    
 }
