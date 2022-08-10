@@ -16,7 +16,7 @@ class LoginViewModel: ObservableObject {
         if self.login.username == user {
             return true
         } else {
-            print("Incorrect username")
+            print("Incorrect username. You typed: \(user)")
             return false
         }
     }
@@ -25,17 +25,17 @@ class LoginViewModel: ObservableObject {
         if self.login.password == pass {
             return true
         } else {
-            print("Incorrect password")
+            print("Incorrect password. You typed: \(pass)")
             return false
         }
     }
     
     func correctLogin(validUser: Bool, validPass: Bool) -> Bool{
-        if validUser && validPass {
+        if (validUser == true && validPass == true) {
             print("Valid login")
             return true
         } else {
-            print("Invalid login: user: \(validUser) pass: \(validPass)")
+            print("Invalid login-> user: \(validUser) pass: \(validPass)")
             return false
         }
     }

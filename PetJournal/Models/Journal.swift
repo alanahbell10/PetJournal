@@ -11,6 +11,6 @@ import SwiftUI
 
 struct Journal {
     private(set) var numEntries = 0
-    private(set) var entries = [Entry(caption: "hi", isPrivate: false)]
+    private(set) var entries = [Entry()]
     
 }

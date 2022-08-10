@@ -13,9 +13,23 @@ struct Entry {
     
     let caption: String
     let isPrivate: Bool
-    //public let photo: Image
+    let picture: UIImage
     
+    //var image = UIImage(named:"ImageName")
     
+    init() {
+        self.caption = "test caption"
+        self.isPrivate = false
+        //let picture = UIImage(named: "test.jpeg")
+        self.picture = UIImage(imageLiteralResourceName: "moon.jpeg")
+    }
+    
+    init(caption: String, photoString: String) {
+        self.caption = caption
+        self.isPrivate = false
+        //let picture = UIImage(named: "test.jpeg")
+        self.picture = UIImage(imageLiteralResourceName: photoString)
+    }
     
 
     
