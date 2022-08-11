@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5ACF2E28A097F40050360A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5ACF2D28A097F40050360A /* LoginView.swift */; };
+		3F5ACF3028A098020050360A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5ACF2F28A098020050360A /* Login.swift */; };
+		3F5ACF3228A099300050360A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5ACF3128A099300050360A /* LoginViewModel.swift */; };
+		3F5ACF3428A09D500050360A /* myViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5ACF3328A09D500050360A /* myViewController.swift */; };
 		3FE8518A289F267D000A1257 /* PetJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE85189289F267D000A1257 /* PetJournalApp.swift */; };
 		3FE8518C289F267D000A1257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8518B289F267D000A1257 /* ContentView.swift */; };
 		3FE8518E289F267E000A1257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8518D289F267E000A1257 /* Assets.xcassets */; };
@@ -14,14 +18,18 @@
 		3FE85199289F26D9000A1257 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE85198289F26D9000A1257 /* WelcomeView.swift */; };
 		3FE8519B289F26FF000A1257 /* myColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8519A289F26FF000A1257 /* myColors.swift */; };
 		3FE8519D289F2778000A1257 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8519C289F2778000A1257 /* BottomTextView.swift */; };
-		3FE8519F289F27D0000A1257 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8519E289F27D0000A1257 /* testView.swift */; };
-		3FE851A2289F286C000A1257 /* testViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE851A1289F286C000A1257 /* testViewModel.swift */; };
+		3FE8519F289F27D0000A1257 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8519E289F27D0000A1257 /* JournalView.swift */; };
+		3FE851A2289F286C000A1257 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE851A1289F286C000A1257 /* JournalViewModel.swift */; };
 		3FE851A5289F2903000A1257 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE851A4289F2903000A1257 /* Journal.swift */; };
 		3FE851A7289F293C000A1257 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE851A6289F293C000A1257 /* Entry.swift */; };
 		3FE851A9289F2A06000A1257 /* moon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE851A8289F2A06000A1257 /* moon.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F5ACF2D28A097F40050360A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F5ACF2F28A098020050360A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3F5ACF3128A099300050360A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3F5ACF3328A09D500050360A /* myViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myViewController.swift; sourceTree = "<group>"; };
 		3FE85186289F267D000A1257 /* PetJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE85189289F267D000A1257 /* PetJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetJournalApp.swift; sourceTree = "<group>"; };
 		3FE8518B289F267D000A1257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,8 +38,8 @@
 		3FE85198289F26D9000A1257 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3FE8519A289F26FF000A1257 /* myColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myColors.swift; sourceTree = "<group>"; };
 		3FE8519C289F2778000A1257 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
-		3FE8519E289F27D0000A1257 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
-		3FE851A1289F286C000A1257 /* testViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewModel.swift; sourceTree = "<group>"; };
+		3FE8519E289F27D0000A1257 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		3FE851A1289F286C000A1257 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
 		3FE851A4289F2903000A1257 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		3FE851A6289F293C000A1257 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		3FE851A8289F2A06000A1257 /* moon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpeg; path = ../../../../Desktop/moon.jpeg; sourceTree = "<group>"; };
@@ -48,6 +56,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8DDED928A5889900AA9411 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		3FE8517D289F267D000A1257 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +82,7 @@
 		3FE85188289F267D000A1257 /* PetJournal */ = {
 			isa = PBXGroup;
 			children = (
+				3F8DDED928A5889900AA9411 /* Tools */,
 				3FE851A8289F2A06000A1257 /* moon.jpeg */,
 				3FE851A3289F28F5000A1257 /* Models */,
 				3FE851A0289F2840000A1257 /* ViewModels */,
@@ -74,6 +90,7 @@
 				3FE85189289F267D000A1257 /* PetJournalApp.swift */,
 				3FE8518D289F267E000A1257 /* Assets.xcassets */,
 				3FE8518F289F267E000A1257 /* Preview Content */,
+				3F5ACF3328A09D500050360A /* myViewController.swift */,
 			);
 			path = PetJournal;
 			sourceTree = "<group>";
@@ -90,10 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				3FE85198289F26D9000A1257 /* WelcomeView.swift */,
-				3FE8519E289F27D0000A1257 /* testView.swift */,
+				3FE8519E289F27D0000A1257 /* JournalView.swift */,
 				3FE8519A289F26FF000A1257 /* myColors.swift */,
 				3FE8519C289F2778000A1257 /* BottomTextView.swift */,
 				3FE8518B289F267D000A1257 /* ContentView.swift */,
+				3F5ACF2D28A097F40050360A /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,7 +119,8 @@
 		3FE851A0289F2840000A1257 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				3FE851A1289F286C000A1257 /* testViewModel.swift */,
+				3FE851A1289F286C000A1257 /* JournalViewModel.swift */,
+				3F5ACF3128A099300050360A /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -111,6 +130,7 @@
 			children = (
 				3FE851A4289F2903000A1257 /* Journal.swift */,
 				3FE851A6289F293C000A1257 /* Entry.swift */,
+				3F5ACF2F28A098020050360A /* Login.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,12 +208,16 @@
 			files = (
 				3FE8518C289F267D000A1257 /* ContentView.swift in Sources */,
 				3FE8519B289F26FF000A1257 /* myColors.swift in Sources */,
-				3FE8519F289F27D0000A1257 /* testView.swift in Sources */,
+				3FE8519F289F27D0000A1257 /* JournalView.swift in Sources */,
 				3FE851A5289F2903000A1257 /* Journal.swift in Sources */,
-				3FE851A2289F286C000A1257 /* testViewModel.swift in Sources */,
+				3FE851A2289F286C000A1257 /* JournalViewModel.swift in Sources */,
 				3FE85199289F26D9000A1257 /* WelcomeView.swift in Sources */,
 				3FE851A7289F293C000A1257 /* Entry.swift in Sources */,
 				3FE8518A289F267D000A1257 /* PetJournalApp.swift in Sources */,
+				3F5ACF3228A099300050360A /* LoginViewModel.swift in Sources */,
+				3F5ACF3428A09D500050360A /* myViewController.swift in Sources */,
+				3F5ACF2E28A097F40050360A /* LoginView.swift in Sources */,
+				3F5ACF3028A098020050360A /* Login.swift in Sources */,
 				3FE8519D289F2778000A1257 /* BottomTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

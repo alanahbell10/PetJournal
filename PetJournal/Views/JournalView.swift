@@ -5,49 +5,52 @@
 //  Created by Alanah Bell on 8/6/22.
 //
 import SwiftUI
+import Foundation.NSDate
+
 
 struct JournalView: View {
     @StateObject var journalModel = JournalViewModel()
+    @State private var contentSize: CGSize = .zero
+    
+    @State var petname: String = ""
+    @State var breed: String = ""
+    @State var age: Int = 0
+    @State var birthday: Date = (NSDate() as Date)
+    let currentDate = NSDate()
+    
+    //use https://www.waldo.com/blog/swiftui-form-101
+    
+    
     
     var body: some View {
-            ZStack {
-                myColors.main.ignoresSafeArea()
-                VStack() {
-                    ScrollView{
-                        VStack {
-                            /*Text("Item \($0)")
-                                .foregroundColor(.white)
-                             Image("sqMoon")  .font(.largeTitle)
-                                .frame(width: 200, height: 200)
-                                .background(.red)*/
-                            Image(uiImage: journalModel.testJournal1.entries[0].picture)
-                            Text(journalModel.testJournal1.entries[0].caption)
+        ZStack(alignment: .top) {
+            myColors.main.ignoresSafeArea()
+            VStack {
+                VStack(alignment: .leading, spacing: 0) {
+                    Form {
+                        Section(header: Text("Your Pet's Information")) {
+                            TextField("Name: ", text: $petname)
+                            TextField("Breed: ", text: $breed)
+                            TextField("Age: ", text: Binding(
+                                get: { String(age) },
+                                set: { age = Int($0) ?? 0 }
+                            ))
                         }
-                        .navigationBarHidden(false)
-                        .environmentObject(journalModel)
-                        .border(myColors.accent, width: 2)
-                        .background(myColors.main)
-                        
-                        VStack {
-                            Image(uiImage: journalModel.testJournal1.entries[1].picture)
-                            Text(journalModel.testJournal1.entries[1].caption)
-                        }
-                        .navigationBarHidden(false)
-                        .environmentObject(journalModel)
-                        .border(myColors.accent, width: 2)
-                        
-                        VStack {
-                            Image(uiImage: journalModel.testJournal1.entries[2].picture)
-                            Text(journalModel.testJournal1.entries[2].caption)
-                        }
-                        .navigationBarHidden(false)
-                        .environmentObject(journalModel)
-                        .border(myColors.accent, width: 2)
                     }
                 }
+                Spacer()
+                Spacer()
+                NavigationLink(destination: WelcomeView()) {
+                    BottomTextView(str: "test")
+                }
+                .font(.system(size: 40))
+                .foregroundColor(myColors.text)
+                .multilineTextAlignment(.leading)
+                .padding()
             }
         }
     }
+}
         
 
 
@@ -56,4 +59,5 @@ struct testView_Previews: PreviewProvider {
         JournalView()
     }
 }
+
 
