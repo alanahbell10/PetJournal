@@ -11,6 +11,7 @@
 		3F5ACF3028A098020050360A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5ACF2F28A098020050360A /* Login.swift */; };
 		3F5ACF3228A099300050360A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5ACF3128A099300050360A /* LoginViewModel.swift */; };
 		3F5ACF3428A09D500050360A /* myViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5ACF3328A09D500050360A /* myViewController.swift */; };
+		3F754DD528A818C200939316 /* Trick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F754DD428A818C200939316 /* Trick.swift */; };
 		3FE8518A289F267D000A1257 /* PetJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE85189289F267D000A1257 /* PetJournalApp.swift */; };
 		3FE8518C289F267D000A1257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8518B289F267D000A1257 /* ContentView.swift */; };
 		3FE8518E289F267E000A1257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8518D289F267E000A1257 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		3F5ACF2F28A098020050360A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		3F5ACF3128A099300050360A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		3F5ACF3328A09D500050360A /* myViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myViewController.swift; sourceTree = "<group>"; };
+		3F754DD428A818C200939316 /* Trick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trick.swift; sourceTree = "<group>"; };
 		3FE85186289F267D000A1257 /* PetJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE85189289F267D000A1257 /* PetJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetJournalApp.swift; sourceTree = "<group>"; };
 		3FE8518B289F267D000A1257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				3FE851A4289F2903000A1257 /* Journal.swift */,
 				3FE851A6289F293C000A1257 /* Entry.swift */,
 				3F5ACF2F28A098020050360A /* Login.swift */,
+				3F754DD428A818C200939316 /* Trick.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				3FE851A2289F286C000A1257 /* JournalViewModel.swift in Sources */,
 				3FE85199289F26D9000A1257 /* WelcomeView.swift in Sources */,
 				3FE851A7289F293C000A1257 /* Entry.swift in Sources */,
+				3F754DD528A818C200939316 /* Trick.swift in Sources */,
 				3FE8518A289F267D000A1257 /* PetJournalApp.swift in Sources */,
 				3F5ACF3228A099300050360A /* LoginViewModel.swift in Sources */,
 				3F5ACF3428A09D500050360A /* myViewController.swift in Sources */,
