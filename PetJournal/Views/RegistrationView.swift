@@ -9,8 +9,8 @@ import Foundation.NSDate
 import UIKit.UIButton
 
 
-struct JournalView: View {
-    @StateObject var journalModel = JournalViewModel()
+struct RegistrationView: View {
+    @StateObject var RegistrationModel = RegistrationViewModel()
     @State private var contentSize: CGSize = .zero
     
     @State var petname: String = ""
@@ -18,7 +18,7 @@ struct JournalView: View {
     @State var age: String = ""
     @State var weight: String = ""
     //@State var age: Int = 0
-    @State var birthday: Date = (NSDate() as Date)
+    @State var birthday: Date = Date()
     @State var isPrivate: Bool = true
     
     //Tricks
@@ -36,6 +36,7 @@ struct JournalView: View {
     
     
     let currentDate = NSDate()
+    //var calcAge: Double
     
     func register() {
         print("Button is tapped")
@@ -59,11 +60,11 @@ struct JournalView: View {
                             TextField("Age: ", text: $age)
                             TextField("Weight: ", text: $weight)
                             
-                            /*Picker("Tricks", selection: $knownTricks) {
-                             Text(sit)
-                             Text(stay)
-                             Text(highFive)
-                             }.pickerStyle(SegmentedPickerStyle())*/
+                            
+                            DatePicker(selection: $birthday, in: ...Date(), displayedComponents: .date) {
+                                            Text("Birthday: ")
+                                        }
+                            Text("\(birthday.formatted(date: .long, time: .omitted))")
                         }
                         //.foregroundColor(myColors.accent)
                         Section(header: Text("Known Tricks: ").foregroundColor(.black)) {
@@ -99,7 +100,7 @@ struct JournalView: View {
 
 struct testView_Previews: PreviewProvider {
     static var previews: some View {
-        JournalView()
+        RegistrationView()
     }
 }
 

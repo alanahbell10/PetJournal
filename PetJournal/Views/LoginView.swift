@@ -34,7 +34,7 @@ struct LoginView: View {
                     }
                     Spacer()
                     Spacer()
-                    NavigationLink(destination: JournalView()) {
+                    NavigationLink(destination: RegistrationView()) {
                         BottomTextView(str: "Login")
                     }.disabled(!(loginModel.correctLogin(validUser: loginModel.correctUser(user: username), validPass: loginModel.correctPassword(pass: password))))
                         .font(.system(size: 40))
